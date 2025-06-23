@@ -5,6 +5,19 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 export function Experience() {
     const experiences = [
         {
+            title: "Mobile Developer",
+            company: "Ministry Of Home Affairs Indonesia",
+            period: "September 2023 - Present",
+            description:
+                "Identitas Kependudukan Digital Developer Team.",
+            achievements: [
+                "Designed and implemented UI components.",
+                "Debugged and optimized application performance.",
+                "Built cross-platform mobile applications using Flutter and Dart and deploy it on Store.",
+                "Implemented data sharing using QR code.",
+            ],
+        },
+        {
             title: "Junior Software Developer",
             company: "Ministry Of Home Affairs Indonesia",
             period: "November 2022 - Present",
@@ -14,19 +27,6 @@ export function Experience() {
                 "Implemented security best practices.",
                 "Integrated third-party services and APIs to enhance functionality.",
                 "Developed and maintained backend services, APIs, and database query.",
-                "Implemented data sharing using QR code.",
-            ],
-        },
-        {
-            title: "Mobile Developer",
-            company: "Ministry Of Home Affairs Indonesia",
-            period: "September 2023 - Present",
-            description:
-                "Identitas Kependudukan Digital Developer Team.",
-            achievements: [
-                "Designed and implemented UI components.",
-                "Debugged and optimized application performance.",
-                "Built cross-platform mobile applications using Flutter and Dart.",
                 "Implemented data sharing using QR code.",
             ],
         },
