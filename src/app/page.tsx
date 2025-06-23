@@ -4,6 +4,7 @@ import { Hero } from "@/components/hero";
 import { About } from "@/components/about";
 import { Skills } from "@/components/skills";
 import { Projects } from "@/components/projects";
+import { Experience } from "@/components/experience";
 
 export default function Portofolio() {
   return (
@@ -14,6 +15,7 @@ export default function Portofolio() {
         <About />
         <Skills />
         <Projects />
+        <Experience />
       </main>
     </div>
   );
