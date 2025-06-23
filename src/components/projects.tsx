@@ -56,7 +56,7 @@ export function Projects() {
                                     </div>
                                     <div className="flex gap-2">
                                         {index === 1 ? (
-                                            <Button variant="outline" size="sm" asChild>
+                                            <Button size="sm" asChild>
                                                 <Link href={project.playStoreUrl} target="_blank">
                                                     <ExternalLink className="mr-2 h-4 w-4" />
                                                     PlayStore
