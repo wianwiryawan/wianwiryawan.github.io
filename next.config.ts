@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
 
 module.exports = {
   // allowedDevOrigins: ['192.168.1.8', '/_next/*'],
+    images: {
+        unoptimized: true
+    }
 }
 
 export default nextConfig;

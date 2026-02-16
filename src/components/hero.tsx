@@ -10,11 +10,14 @@ export function Hero(){
             <div className="container mx-auto text-center">
                 <div className="max-w-4xl mx-auto">
                     <h1 className="text-4xl sm:text-6xl font-bold mb-6">
-                        Hi, I'm <span className="text:primary">Kristuaji Wiryawan</span>
+                        Hello, my name is <span className="text:primary">Kristuaji Wiryawan</span>
                     </h1>
-                    <h2 className="text-xl sm:text-2xl text-muted-foreground mb-8">I'm working for Ministry of Home Affairs Indonesia, developing their Web and Mobile Application.</h2>
-                    <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
+                    <h2 className="text-xl sm:text-xl text-muted-foreground mb-8">I have strong interest in software development, microservices, and mobile development with over 3 years experience as a full stack developer.</h2>
+                    <p className="text-lg text-muted-foreground mb-3 max-w-2xl mx-auto">
                         I have experience with NodeJs, Microservices, Java, Flutter Dart, Database and have keen interest about building scalable applications.
+                    </p>
+                    <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
+                        My expertise is primarily on backend development, where I have worked on designing, developing, and maintaining scalable APIs, databases, server side logic, and containered application services.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                         <Button size={"lg"} asChild>
@@ -25,6 +28,7 @@ export function Hero(){
                         </Button>
                         <Button variant="outline" size="lg">
                             <Download className="mr-2 h-4 w-4"/>
+                            {/* TODO: Later change this to the latest cv (cv 2026) */}
                                 <a href="/document/cv.pdf" download="cv">Download Resume</a>
                         </Button>
                     </div>

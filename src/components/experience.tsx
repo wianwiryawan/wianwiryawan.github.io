@@ -15,19 +15,22 @@ export function Experience() {
                 "Debugged and optimized application performance.",
                 "Built cross-platform mobile applications using Flutter and Dart and deploy it on Store.",
                 "Implemented data sharing using QR code.",
+                "Developed the app with Flutter Ul, Dart-based REST API bridging Flutter and Vertx, Vertx backend for Oracle integration, and PL/SQL procedures-enabling seamless data flow and scalability.",
             ],
         },
         {
             title: "Junior Software Developer",
             company: "Ministry Of Home Affairs Indonesia",
-            period: "November 2022 - Present",
+            period: "January 2023 - Present",
             description:
                 "Sistem Informasi Administrasi Kependudukan & Identitas Kependudukan Digital Software Developer Team.",
             achievements: [
-                "Implemented security best practices.",
+                "Implemented end-to-end encryption for application security.",
                 "Integrated third-party services and APIs to enhance functionality.",
                 "Developed and maintained backend services, APIs, and database query.",
-                "Implemented data sharing using QR code.",
+                "Implement QR code for data sharing between applications.",
+                "Designined a microservices architecture with Vert.x, NodeJS, and Docker containers.",
+                "Supported infrastructure scaling by adding servers and creating Docker-based service containers, improving system capacity for increased client requests.",
             ],
         },
         {
@@ -37,8 +40,9 @@ export function Experience() {
             description:
                 "Enhancing website for Bali atmospheric data and geophysical data. Develop user interface dashboard for checking atmospheric data and geophysical data, and admin dashboard for managing atmospheric data and geophysical data.",
             achievements: [
-                "Fixing bugs on CRUD logic",
-                "Adding feature for data insertion from .csv file into database",
+                "Fixing bugs on the application CRUD logic.",
+                "Adding application feature for handling bulk data report from csv.",
+                "Integrating data from database to the Weather and Geophysical Information application.",
             ],
         }
     ]
