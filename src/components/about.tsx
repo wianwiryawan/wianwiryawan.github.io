@@ -8,10 +8,10 @@ export function About() {
         <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/50">
             <div className="container mx-auto">
                 <div className="max-w-4xl mx-auto">
-                     <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
-                     <div className="grid md:grid-cols-2 gap-12 items-center">
+                    <h2 className="text-3xl font-bold text-center mb-12">About Me</h2>
+                    <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div className="w-64 h-84 mx-auto bg-muted flex items-center justify-center">
-                             <Image
+                            <Image
                                     src="/picture/profile.jpeg"
                                     width={100}
                                     height={100}
@@ -24,7 +24,7 @@ export function About() {
                         </div>
                         <div className="space-y-6">
                             <p className="text-lg text-muted-foreground">
-                                Over 2 years working as a full-stack developer building web and mobile application, also have experience with DevOps and Microservices.
+                                Over 3 years working as a full-stack developer building web and mobile application. Have experience with DevOps and Microservices.
                             </p>
                             {/* <p className="text-lg text-muted-foreground">
                                 When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community through blog posts and mentoring.
@@ -38,13 +38,17 @@ export function About() {
                                 </Card> */}
                                 <Card>
                                     <CardContent className="p-4 text-center">
+                                        <div className="text-2xl font-bold text-primary">3+</div>
+                                        <div className="text-sm text-muted-foregroundy">Years Experience as a full-stack and DevOps developer</div>
+                                    </CardContent>
+                                    <CardContent className="p-4 text-center">
                                         <div className="text-2xl font-bold text-primary">2+</div>
-                                        <div className="text-sm text-muted-foregroundy">Years Experience</div>
+                                        <div className="text-sm text-muted-foregroundy">Years Experience as a mobile developer</div>
                                     </CardContent>
                                 </Card>
                             </div>
                         </div>
-                     </div>
+                    </div>
                 </div>
             </div>
         </section>
