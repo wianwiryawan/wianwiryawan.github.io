@@ -40,9 +40,9 @@ export function Experience() {
             description:
                 "Enhancing website for Bali atmospheric data and geophysical data. Develop user interface dashboard for checking atmospheric data and geophysical data, and admin dashboard for managing atmospheric data and geophysical data.",
             achievements: [
-                "Fixing bugs on the application CRUD logic",
-                "Adding application feature for handling bulk data report from csv",
-                "Integrating data from database to the Weather and Geophysical Information application",
+                "Fixing bugs on the application CRUD logic.",
+                "Adding application feature for handling bulk data report from csv.",
+                "Integrating data from database to the Weather and Geophysical Information application.",
             ],
         }
     ]
